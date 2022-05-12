@@ -1,0 +1,243 @@
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #575065;
+  color: #575065;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.main {
+  min-height: 86vh;
+}
+
+.outerContainer {
+  background-color: rgba(243, 183, 207, 0.5);
+}
+
+.grandTitle {
+  color: #575065;
+}
+
+.songListMarco {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.noWrapForce {
+  white-space: nowrap !important;
+}
+
+.centerFlexDiv {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.avatar {
+  border-radius: 100%;
+}
+
+.songRow {
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.songRow:hover {
+  background-color: #d7c2f9;
+}
+
+.songRowTop {
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  background-color: rgba(229, 106, 84, 0.1);
+}
+
+.songRowTop:hover {
+  background-color: #d7c2f9;
+}
+
+.songRowPaid {
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  background-color: rgba(255, 223, 0, 0.1);
+}
+
+.songRowPaid:hover {
+  background-color: #d7c2f9;
+}
+
+.filters {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-radius: 1rem;
+  margin-top: 12px;
+}
+
+.filters:focus {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: none;
+}
+
+.customRandomButton {
+  color: #575065;
+  border-radius: 1rem;
+  border: none;
+  margin-top: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.customRandomButton:focus {
+  color: #575065;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: none;
+}
+
+.customRandomButton:hover {
+  color: #575065;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.customCategoryButton {
+  color: #575065;
+  border-radius: 1rem;
+  margin-bottom: 12px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.customCategoryButton:focus {
+  color: #575065;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: none;
+}
+
+.customCategoryButton:hover {
+  color: #575065;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.customCategoryButtonActive {
+  color: #575065;
+  border-radius: 1rem;
+  margin-bottom: 12px;
+  border: none;
+  background-color: #d7c2f9;
+}
+
+.customCategoryButtonActive:focus {
+  color: #575065;
+  background-color: #d7c2f9;
+  box-shadow: none;
+}
+
+.customCategoryButtonActive:hover {
+  color: #575065;
+  background-color: #AC9BC7;
+}
+
+/* .customCategoryButton:active {
+  background-color: #d7c2f9 !important;
+  color: #575065;
+} */
+
+.mandarinBtn > button {
+  color: #575065;
+  border-radius: 1rem;
+  margin-bottom: 12px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.mandarinBtn > button:hover {
+  color: #575065;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.mandarinBtn > button:focus {
+  color: #575065;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: none;
+}
+
+.mandarinBtn > button:active {
+  color: #575065;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: none;
+}
+
+.mandarinBtnActive > button {
+  color: #575065;
+  border-radius: 1rem;
+  margin-bottom: 12px;
+  border: none;
+  background-color: #d7c2f9;
+}
+
+.mandarinBtnActive > button:hover {
+  color: #575065;
+  background-color: #AC9BC7;
+}
+
+.mandarinBtnActive > button:focus {
+  color: #575065;
+  background-color: #AC9BC7;
+  box-shadow: none;
+}
+
+.mandarinBtnActive > button:active {
+  color: #575065;
+  background-color: #d7c2f9;
+  box-shadow: none;
+}
+
+.backToTopBtn {
+  position: fixed;
+  bottom: 3rem;
+  right: 2rem;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #575065;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  border: none;
+  box-shadow: 0 5px 10px #ccc;
+  transition: 0.25s ease;
+}
+
+.backToTopBtn:hover {
+  background-color: white;
+}
+
+.tableIconTd {
+  padding: 0.25rem !important;
+}
+
+.tableIcons {
+  display: flex;
+  width: 27px;
+}
+
+.biliIcon {
+  width: 20px;
+  vertical-align: text-bottom;
+}
+
+@media (max-width: 768px) {
+  /* .filters {
+    margin-top: 12px;
+  }
+  .customRandomButton {
+    margin-top: 12px;
+  } */
+}
