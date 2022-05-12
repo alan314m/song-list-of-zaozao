@@ -2,8 +2,8 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #575065;
-  color: #575065;
+  border-top: 1px solid #3C62A5;
+  color: #3C62A5;
   justify-content: center;
   align-items: center;
 }
@@ -20,11 +20,12 @@
 }
 
 .outerContainer {
-  background-color: rgba(243, 183, 207, 0.5);
+  /* background-color: rgba(243, 183, 207, 0.5); */
+  background-color: rgba(135,201,251,0.8);
 }
 
 .grandTitle {
-  color: #575065;
+  color: #3C62A5;
 }
 
 .songListMarco {
@@ -45,6 +46,7 @@
 
 .avatar {
   border-radius: 100%;
+  border: 3px solid #3C62A5 !important;
 }
 
 .songRow {
@@ -53,27 +55,7 @@
 }
 
 .songRow:hover {
-  background-color: #d7c2f9;
-}
-
-.songRowTop {
-  cursor: pointer;
-  transition: background-color 0.25s ease;
-  background-color: rgba(229, 106, 84, 0.1);
-}
-
-.songRowTop:hover {
-  background-color: #d7c2f9;
-}
-
-.songRowPaid {
-  cursor: pointer;
-  transition: background-color 0.25s ease;
-  background-color: rgba(255, 223, 0, 0.1);
-}
-
-.songRowPaid:hover {
-  background-color: #d7c2f9;
+  background-color: #FDAF9B;
 }
 
 .filters {
@@ -89,7 +71,7 @@
 }
 
 .customRandomButton {
-  color: #575065;
+  color: #212529;
   border-radius: 1rem;
   border: none;
   margin-top: 12px;
@@ -97,107 +79,14 @@
 }
 
 .customRandomButton:focus {
-  color: #575065;
+  color: #212529;
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: none;
 }
 
 .customRandomButton:hover {
-  color: #575065;
+  color: #3C62A5;
   background-color: rgba(255, 255, 255, 1);
-}
-
-.customCategoryButton {
-  color: #575065;
-  border-radius: 1rem;
-  margin-bottom: 12px;
-  border: none;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.customCategoryButton:focus {
-  color: #575065;
-  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: none;
-}
-
-.customCategoryButton:hover {
-  color: #575065;
-  background-color: rgba(255, 255, 255, 1);
-}
-
-.customCategoryButtonActive {
-  color: #575065;
-  border-radius: 1rem;
-  margin-bottom: 12px;
-  border: none;
-  background-color: #d7c2f9;
-}
-
-.customCategoryButtonActive:focus {
-  color: #575065;
-  background-color: #d7c2f9;
-  box-shadow: none;
-}
-
-.customCategoryButtonActive:hover {
-  color: #575065;
-  background-color: #AC9BC7;
-}
-
-/* .customCategoryButton:active {
-  background-color: #d7c2f9 !important;
-  color: #575065;
-} */
-
-.mandarinBtn > button {
-  color: #575065;
-  border-radius: 1rem;
-  margin-bottom: 12px;
-  border: none;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.mandarinBtn > button:hover {
-  color: #575065;
-  background-color: rgba(255, 255, 255, 1);
-}
-
-.mandarinBtn > button:focus {
-  color: #575065;
-  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: none;
-}
-
-.mandarinBtn > button:active {
-  color: #575065;
-  background-color: rgba(255, 255, 255, 1);
-  box-shadow: none;
-}
-
-.mandarinBtnActive > button {
-  color: #575065;
-  border-radius: 1rem;
-  margin-bottom: 12px;
-  border: none;
-  background-color: #d7c2f9;
-}
-
-.mandarinBtnActive > button:hover {
-  color: #575065;
-  background-color: #AC9BC7;
-}
-
-.mandarinBtnActive > button:focus {
-  color: #575065;
-  background-color: #AC9BC7;
-  box-shadow: none;
-}
-
-.mandarinBtnActive > button:active {
-  color: #575065;
-  background-color: #d7c2f9;
-  box-shadow: none;
 }
 
 .backToTopBtn {
@@ -206,12 +95,12 @@
   right: 2rem;
   font-size: 16px;
   background-color: rgba(255, 255, 255, 0.5);
-  color: #575065;
+  color: #212529;
   cursor: pointer;
   border-radius: 0.5rem;
   padding: 0.75rem;
   border: none;
-  box-shadow: 0 5px 10px #ccc;
+  box-shadow: 0 2px 5px #ccc;
   transition: 0.25s ease;
 }
 

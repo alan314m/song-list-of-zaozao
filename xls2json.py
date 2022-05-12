@@ -6,10 +6,9 @@ song_df = song_df.where(pd.notnull(song_df), None)
 song_list = []
 
 for index, row in song_df.iterrows():
-    # print(index, row[0], row[1])
-    song_data = {"index": index, "song_name": row[1], "artist": row[0]}
+    a = row[0].split("-")
+    song_data = {"index": index, "song_name": a[0], "artist": a[1]}
     song_list.append(song_data)
     
-
-with open("./public/music_list_zaozao.json", 'w') as file:
-    file.write(json.dumps(song_list))
+sdf = pd.DataFrame(song_list)
+sdf.to_excel("music_list_zaozao_neo.xlsx", index=False)
