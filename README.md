@@ -40,9 +40,9 @@ Next.JS自动生成的"out"文件夹可直接用于部署静态网页
 
 转Excel到Json需要[Python3](https://www.python.org/), pandas和openpyxl
 
-目前歌曲信息储存于"./public/music_list_7.json"
+目前歌曲信息储存于"./public/music_list_zaozao.json"
 
-金山文档输出Excel覆盖"./music_list_7.xlsx"并运行"./music_list_to_json.py"自动输出json文件覆盖"./public/music_list_7.json"
+金山文档输出Excel覆盖"./music_list_zaozao.xlsx"并运行"./music_list_to_json.py"自动输出json文件覆盖"./public/music_list_zaozao.json"
 
 <br />
 <br />
