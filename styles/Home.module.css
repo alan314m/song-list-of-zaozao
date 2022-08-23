@@ -2,8 +2,8 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #3C62A5;
-  color: #3C62A5;
+  border-top: 1px solid #1C1B1C;
+  color: #1C1B1C;
   justify-content: center;
   align-items: center;
 }
@@ -17,15 +17,28 @@
 
 .main {
   min-height: 86vh;
+  background: rgba(255,255,255,0);
 }
 
 .outerContainer {
   /* background-color: rgba(243, 183, 207, 0.5); */
-  background-color: rgba(135,201,251,0.8);
+  background-color: rgba(232,227,213,0.8);
+  /* background: url("../public/background.png") center center no-repeat fixed; */
+}
+
+@media (min-width: 1201px) {
+  .outerContainer {
+    background: url("../public/background.webp") center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
 }
 
 .grandTitle {
-  color: #3C62A5;
+  color: #1C1B1C;
 }
 
 .songListMarco {
@@ -46,7 +59,7 @@
 
 .avatar {
   border-radius: 100%;
-  border: 3px solid #3C62A5 !important;
+  border: 3px solid #1C1B1C !important;
 }
 
 .songRow {
@@ -55,7 +68,7 @@
 }
 
 .songRow:hover {
-  background-color: #FDAF9B;
+  background-color: rgba(130, 80, 71,0.5);  
 }
 
 .filters {
@@ -85,7 +98,7 @@
 }
 
 .customRandomButton:hover {
-  color: #3C62A5;
+  color: #1C1B1C;
   background-color: rgba(255, 255, 255, 1);
 }
 

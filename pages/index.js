@@ -103,7 +103,7 @@ export default function Home() {
                 <Image
                   loader={imageLoader}
                   className={styles.avatar}
-                  src="zaoZaoAvatar.webp"
+                  src="avatar1.webp"
                   alt="早子的头像"
                   width={250}
                   height={250}
